@@ -1,5 +1,5 @@
 # Getting Started with ROS and JetRacer AI Kit
-Tutorial page:
+Tutorial page: https://tutorial.cytron.io/?p=38120
 
 Controller: Nvidia Jetson Nano Developer Kit B01 (4GB)
 
