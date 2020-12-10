@@ -80,4 +80,4 @@ def index():
 
 if __name__ == "__main__":
     show_camera()
-    app.run(host= '192.168.1.7') #Host ip address
+    app.run(host= 'localhost') #Host ip address
