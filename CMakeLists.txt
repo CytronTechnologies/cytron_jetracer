@@ -10,6 +10,8 @@ project(cytron_jetracer)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
+  urdf
+  sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -163,6 +165,7 @@ catkin_install_python(PROGRAMS
   scripts/teleop.py
   scripts/teleop_gamepad.py
   scripts/camera.py
+  scripts/joint_state.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
